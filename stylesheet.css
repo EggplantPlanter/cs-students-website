@@ -7,21 +7,15 @@ html{
 }
 
 body{
-	background: #191919; 
+  background: #191919; 
 }
 
-
-.container{
-	border: 5px solid red !important;
-	margin-top: 20px;
-
-}
-
-main{
-	margin-top: 100px !important;
-	padding: 15px;
-
-
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
 .nav-masthead .nav-link {
@@ -41,11 +35,120 @@ main{
   margin-left: 1rem;
 }
 
-.nav-masthead .active {
-  color: black;
-  border-bottom-color: black;
+
+/*li {
+    float: left;
 }
 
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+*/
+
+
+.title-heading{
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+
+.container{
+/*	border: 5px solid red !important;*/
+	margin-top: 20px;
+  padding: 5px;
+
+}
+
+#container-about{
+  background: #F0F0F0;
+  border: 3px solid black !important;
+}
+#container-about img{
+  background: #F0F0F0; 
+  text-align: center;
+  align-content: center;
+  border-style: solid;
+
+}
+
+.highlight img{
+  opacity:0.5;
+}
+
+.highlight img:hover{
+  opacity:1;
+}
+
+main{
+	margin-top: 100px !important;
+	padding: 15px;
+
+}
+
+
+#container{
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+    width:100%;
+}
+#container>div {
+    width: 100px;
+    height: 100px;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    background:red;
+}
+span {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
+/*communities*/
+#container-communities {
+  background: #b3ecec;
+  padding:15px;
+  margin: 50px;
+}
+
+
+#container-communities ul li{
+  font-size: 16pt;
+  line-height: 1.5;
+}
+
+#container-opportunities{
+  background: #89ecda;
+  padding:15px;
+  margin: 50px;
+}
+
+#container-opportunities ul li{
+  font-size: 16pt;
+  line-height: 1.5;
+}
 .about{
 	text-align: center;
 }
+
+footer{
+  margin-top: 200px;
+  text-align: center;
+}
+
